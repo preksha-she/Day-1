@@ -12,6 +12,7 @@ The internship was designed to build strong foundational knowledge in:
 - Exploratory Data Analysis (EDA)  
 - Feature engineering  
 - Statistics and probability  
+- Statistics: Distributions
 
 The learning progressed step-by-step from programming fundamentals to machine learning preparation.
 
@@ -161,6 +162,17 @@ The learning progressed step-by-step from programming fundamentals to machine le
 
 This strengthened statistical thinking required for machine learning and predictive modeling.
 
+---
+
+📍 Day 16 – Statistics: Distributions
+
+Explored the shape of data and its impact on analysis and ML model selection.
+
+Practiced identifying skewness and detecting outliers using Z-scores.
+
+Simulated the Central Limit Theorem, observing how sample means form a bell curve even from messy, skewed data.
+
+Understood how these concepts help in statistical inference and improve data-driven decision-making.
 ---
 
 # 🛠 Technologies Used
