@@ -19,7 +19,11 @@ The internship was designed to build strong foundational knowledge in:
 -Introduction to Machine Learning
 -Review I & Problem Statement Selection
  -Brainstorming & Project Deep Dive
--Multivariate Linear Regression – Salary Prediction
+-Multivariate Linear Regression 
+-Logistic Regression 
+-Decision Tree (ID3 Algorithm)
+
+
 
 The learning progressed step-by-step from programming fundamentals to machine learning preparation.
 
@@ -237,6 +241,20 @@ Finalized a well-scoped project idea
 📍Days 27 -Multivariate Linear Regression – Salary Prediction
 
 This project focuses on building a multivariate (multiple) linear regression model using the hiring.csv dataset to predict candidate salaries based on three key factors: years of experience, written test score, and interview score. The objective was to develop a machine learning solution that can assist the HR department in making data-driven salary decisions for future candidates. The dataset was loaded and analyzed to understand how each feature contributes to salary prediction, followed by basic preprocessing to ensure data quality. A multiple linear regression model was then trained using all three input variables together, and predictions were generated for new candidates to simulate real-world HR decision-making. Through this project, I gained a deeper understanding of how multiple independent variables collectively influence a dependent variable and learned how regression models can be applied in practical business scenarios. This task improved my skills in data analysis, model building, and interpreting prediction results using Python, Pandas, NumPy, and Scikit-learn.
+
+📍Days 28 -Logistic Regression Projects
+
+This repository contains multiple examples demonstrating the implementation of **Logistic Regression using Python and Scikit-learn** for different classification problems.
+
+The first project uses the **Iris dataset** to classify different species of flowers. The dataset is loaded using Scikit-learn and converted into a pandas DataFrame for easier analysis. The features and target variable are separated, and the data is split into training and testing sets using `train_test_split`. A Logistic Regression model is trained and used to predict the flower species. The performance of the model is evaluated using **accuracy score and classification report**.
+
+The second project focuses on **insurance purchase prediction based on age**. The dataset is loaded using pandas and visualized using **matplotlib** to understand the relationship between age and whether a person buys insurance. The dataset is split into training and testing sets, and a Logistic Regression model is trained to predict the result. The probability of buying insurance is calculated using `predict_proba`, and the **sigmoid curve** is used to show how logistic regression models probabilities. The model performance is evaluated using **accuracy score**.
+
+The third project is **Employee Retention Prediction** using an HR dataset. The dataset includes features such as satisfaction level, number of projects, monthly working hours, promotion in the last five years, department, and salary level. **Exploratory Data Analysis (EDA)** is performed using visualizations like bar charts and boxplots to understand patterns related to employee turnover. After preprocessing the data and converting categorical variables into numerical form, a Logistic Regression model is trained using scikit-learn. The dataset is divided into training and testing sets, and the model predicts whether an employee will **stay in the company or leave**, helping demonstrate how machine learning can assist in employee retention analysis.
+
+📍Days 29-# Decision Tree (ID3 Algorithm)
+
+In this task, I learned the fundamentals of the Decision Tree algorithm using the ID3 method. I created a dataset with features such as outlook, temperature, humidity, and wind to predict whether football can be played. The data was processed using Python libraries like pandas and scikit-learn. Categorical values were converted into numerical format using LabelEncoder so that the model could understand the data. After preparing the dataset, I trained a DecisionTreeClassifier model using the entropy criterion and tested it with sample input. Through this work, I understood how the Decision Tree algorithm classifies data based on conditions and how the ID3 algorithm uses entropy to make decisions. I also learned how to preprocess data, train a machine learning model, and make predictions.
 
 
 # 🛠 Technologies Used
