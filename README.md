@@ -1,3 +1,5 @@
+# 📊 Data Science & Artificial Intelligence Internship – Learning Repository
+
 ## 📌 Project Overview
 
 This repository documents my structured learning journey during a **Data Science & Artificial Intelligence Internship**.
@@ -12,19 +14,17 @@ The internship was designed to build strong foundational knowledge in:
 - Exploratory Data Analysis (EDA)  
 - Feature engineering  
 - Statistics and probability  
-- Statistics: Distributions
-– SQL for Data Science
--Git Advanced
-- Mini Project 1: Exploratory Data Analysis (EDA)
--Introduction to Machine Learning
--Review I & Problem Statement Selection
- -Brainstorming & Project Deep Dive
--Multivariate Linear Regression 
--Logistic Regression 
--Decision Tree (ID3 Algorithm)
+- Statistics: Distributions  
+- SQL for Data Science  
+- Git Advanced  
+- Mini Project 1: Exploratory Data Analysis (EDA)  
+- Introduction to Machine Learning  
+- Review I & Problem Statement Selection  
+- Brainstorming & Project Deep Dive  
+- Multivariate Linear Regression  
+- Logistic Regression  
+- Decision Tree (ID3 Algorithm)  
 - Support Vector Machines (SVM)
-
-
 
 The learning progressed step-by-step from programming fundamentals to machine learning preparation.
 
@@ -176,103 +176,156 @@ This strengthened statistical thinking required for machine learning and predict
 
 ---
 
-📍 Day 16 – Statistics: Distributions
+## 📍 Day 16 – Statistics: Distributions
 
 Explored the shape of data and its impact on analysis and ML model selection.
 
 Practiced identifying skewness and detecting outliers using Z-scores.
 
-Simulated the Central Limit Theorem, observing how sample means form a bell curve even from messy, skewed data.
+Simulated the Central Limit Theorem, observing how sample means form a bell curve even from skewed data.
 
-Understood how these concepts help in statistical inference and improve data-driven decision-making.
----
-
-
-📍  Day 17 – SQL Fundamentals (SELECT, WHERE, GROUP BY, JOIN, Python Integration)
-
-## 🎯 Objective
-Set up your first local SQLite database and learn how to:
-- Retrieve specific data using `SELECT`
-- Filter records using `WHERE`
-- Aggregate results using `GROUP BY`
-- Combine tables using `JOIN`
-- Connect SQL with Python for analysis
+Understood how these concepts help in statistical inference and improve data-driven decision making.
 
 ---
 
-📍 Day 19 - Git Advanced – Branching & Merge Conflict Resolution
+## 📍 Day 17 – SQL Fundamentals
 
-- Develop new features  
-- Fix bugs  
-- Experiment with ideas  
-- Refactor code
-
-📍 Day 20 – Mini Project 1: Exploratory Data Analysis (EDA)
-
-- Examine and understand raw datasets
-- Perform justified data cleaning and preprocessing
-- Explore patterns through statistical summaries and visualization
-- Communicate findings clearly and professionally
-
-📍Day 21 – Introduction to Machine Learning
-
-Clearly explain Machine Learning  
-✔ Differentiate ML from traditional programming  
-✔ Identify supervised vs unsupervised vs reinforcement learning  
-✔ Map real-world problems to the correct ML category  
-✔ Avoid beginner-level conceptual mistakes
-
- 📍Day 22 – Review I & Problem Statement Selection
-
-Clearly understand which ML tools apply to which problems  
-✔ Select a project aligned with their skill level  
-✔ Define a clear problem statement  
-✔ Transition confidently into independent project work
+- SELECT statements  
+- WHERE filtering  
+- GROUP BY aggregation  
+- JOIN operations  
+- Python integration with SQL  
+- Creating and managing a local SQLite database  
 
 ---
 
-📍Days 23–25,26 – Brainstorming & Project Deep Dive
+## 📍 Day 19 – Git Advanced
 
-Finalized a well-scoped project idea  
-✔ Defined measurable success criteria  
-✔ Identified appropriate modeling approaches  
-✔ Designed a preliminary data flow architecture  
-✔ Aligned project ambition with realistic constraints  
-
-📍Days 27 -Multivariate Linear Regression – Salary Prediction
-
-This project focuses on building a multivariate (multiple) linear regression model using the hiring.csv dataset to predict candidate salaries based on three key factors: years of experience, written test score, and interview score. The objective was to develop a machine learning solution that can assist the HR department in making data-driven salary decisions for future candidates. The dataset was loaded and analyzed to understand how each feature contributes to salary prediction, followed by basic preprocessing to ensure data quality. A multiple linear regression model was then trained using all three input variables together, and predictions were generated for new candidates to simulate real-world HR decision-making. Through this project, I gained a deeper understanding of how multiple independent variables collectively influence a dependent variable and learned how regression models can be applied in practical business scenarios. This task improved my skills in data analysis, model building, and interpreting prediction results using Python, Pandas, NumPy, and Scikit-learn.
-
-📍Days 28 -Logistic Regression Projects
-
-This repository contains multiple examples demonstrating the implementation of **Logistic Regression using Python and Scikit-learn** for different classification problems.
-
-The first project uses the **Iris dataset** to classify different species of flowers. The dataset is loaded using Scikit-learn and converted into a pandas DataFrame for easier analysis. The features and target variable are separated, and the data is split into training and testing sets using `train_test_split`. A Logistic Regression model is trained and used to predict the flower species. The performance of the model is evaluated using **accuracy score and classification report**.
-
-The second project focuses on **insurance purchase prediction based on age**. The dataset is loaded using pandas and visualized using **matplotlib** to understand the relationship between age and whether a person buys insurance. The dataset is split into training and testing sets, and a Logistic Regression model is trained to predict the result. The probability of buying insurance is calculated using `predict_proba`, and the **sigmoid curve** is used to show how logistic regression models probabilities. The model performance is evaluated using **accuracy score**.
-
-The third project is **Employee Retention Prediction** using an HR dataset. The dataset includes features such as satisfaction level, number of projects, monthly working hours, promotion in the last five years, department, and salary level. **Exploratory Data Analysis (EDA)** is performed using visualizations like bar charts and boxplots to understand patterns related to employee turnover. After preprocessing the data and converting categorical variables into numerical form, a Logistic Regression model is trained using scikit-learn. The dataset is divided into training and testing sets, and the model predicts whether an employee will **stay in the company or leave**, helping demonstrate how machine learning can assist in employee retention analysis.
-
-📍Days 29-# Decision Tree (ID3 Algorithm)
-
-In this task, I learned the fundamentals of the Decision Tree algorithm using the ID3 method. I created a dataset with features such as outlook, temperature, humidity, and wind to predict whether football can be played. The data was processed using Python libraries like pandas and scikit-learn. Categorical values were converted into numerical format using LabelEncoder so that the model could understand the data. After preparing the dataset, I trained a DecisionTreeClassifier model using the entropy criterion and tested it with sample input. Through this work, I understood how the Decision Tree algorithm classifies data based on conditions and how the ID3 algorithm uses entropy to make decisions. I also learned how to preprocess data, train a machine learning model, and make predictions.
-
-📍Days 32 - Support Vector Machines (SVM)
-
-## Overview
-Today I learned about **Support Vector Machines (SVM)**, a supervised machine learning algorithm used for **classification and regression**. SVM works by finding the best **decision boundary (hyperplane)** that separates different classes in a dataset.
-
-## Key Concepts
-- **Hyperplane:** Decision boundary that separates classes.
-- **Support Vectors:** Data points closest to the hyperplane.
-- **Margin:** Distance between the hyperplane and the nearest data points.
-- **Kernel Trick:** Helps SVM handle non-linear data.
-
-## Conclusion
-SVM is a powerful algorithm that works well for **high-dimensional data** and provides strong classification performance.
+- Branching strategies  
+- Merge conflict resolution  
+- Collaborative development workflows  
+- Version control best practices  
 
 ---
-📅 *Machine Learning Journey – Day 32*
+
+## 📍 Day 20 – Mini Project 1: Exploratory Data Analysis (EDA)
+
+- Examined raw datasets  
+- Performed data cleaning and preprocessing  
+- Explored patterns using statistical summaries and visualizations  
+- Communicated insights clearly and professionally  
+
+---
+
+## 📍 Day 21 – Introduction to Machine Learning
+
+- Understanding machine learning concepts  
+- Difference between ML and traditional programming  
+- Supervised vs Unsupervised vs Reinforcement learning  
+- Mapping real-world problems to ML approaches  
+
+---
+
+## 📍 Day 22 – Review & Problem Statement Selection
+
+- Identified appropriate ML tools for specific problems  
+- Selected a suitable project idea  
+- Defined a clear problem statement  
+- Prepared for independent project work  
+
+---
+
+## 📍 Days 23–26 – Brainstorming & Project Deep Dive
+
+- Finalized project scope  
+- Defined success criteria  
+- Identified potential modeling approaches  
+- Designed preliminary data flow architecture  
+
+---
+
+## 📍 Day 27 – Multivariate Linear Regression (Salary Prediction)
+
+Developed a machine learning model using **Multiple Linear Regression** to predict candidate salaries based on:
+
+- Years of experience  
+- Written test score  
+- Interview score  
+
+Tools used:
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+
+This project demonstrated how multiple independent variables influence a dependent variable in real-world HR decision making.
+
+---
+
+## 📍 Day 28 – Logistic Regression Projects
+
+Implemented Logistic Regression for multiple classification problems:
+
+### Iris Flower Classification
+- Trained model using Scikit-learn  
+- Evaluated using accuracy score and classification report  
+
+### Insurance Purchase Prediction
+- Analyzed relationship between age and insurance purchase  
+- Visualized sigmoid curve and prediction probabilities  
+
+### Employee Retention Prediction
+- Performed EDA on HR dataset  
+- Predicted whether employees would stay or leave  
+- Demonstrated ML applications in HR analytics  
+
+---
+
+## 📍 Day 29 – Decision Tree (ID3 Algorithm)
+
+- Learned decision tree fundamentals  
+- Used entropy and information gain for classification  
+- Preprocessed categorical data using LabelEncoder  
+- Implemented model using `DecisionTreeClassifier`
+
+This task demonstrated how decision trees make decisions through hierarchical splitting.
+
+---
+
+## 📍 Day 31 – Project Phase 1 Presentation
+
+Presented the first phase of the project titled:
+
+**Plant Disease Diagnosis using Machine Learning**
+
+Presentation included:
+
+- Introduction  
+- Problem Statement  
+- Objectives  
+- Literature Review  
+- Proposed Methodology  
+- Expected Outcomes  
+- Conclusion  
+- References  
+
+The project focuses on detecting plant diseases from leaf images using machine learning and computer vision techniques to assist farmers in early disease detection.
+
+---
+
+## 📍 Day 32 – Support Vector Machines (SVM)
+
+### Overview
+Learned the fundamentals of **Support Vector Machines**, a supervised machine learning algorithm used for classification and regression.
+
+### Key Concepts
+- Hyperplane (decision boundary)  
+- Support vectors  
+- Margin maximization  
+- Kernel trick for nonlinear classification  
+
+---
 
 # 🛠 Technologies Used
 
@@ -280,39 +333,51 @@ SVM is a powerful algorithm that works well for **high-dimensional data** and pr
 - NumPy  
 - Pandas  
 - Matplotlib  
-- CSV & Excel handling  
+- Scikit-learn  
+- SQL (SQLite)  
+- Git & GitHub  
+- CSV and Excel file handling  
 
 ---
 
 # 🎯 Skills Developed
 
-- Strong Python programming foundation  
-- Data structure management  
+- Python programming  
 - Data cleaning and preprocessing  
-- Data visualization and dashboard creation  
+- Data visualization  
 - Exploratory data analysis  
-- Feature engineering techniques  
-- Statistical reasoning and probability fundamentals  
-- Machine learning data preparation  
+- Feature engineering  
+- Statistical reasoning  
+- Machine learning fundamentals  
+- Git version control and collaboration  
 
 ---
 
 # 🏆 Internship Outcome
 
-This internship provided a structured progression from programming basics to core data science concepts.
+This internship provided a structured progression from programming basics to machine learning fundamentals.
 
-It strengthened analytical thinking, problem-solving ability, and readiness for real-world machine learning workflows.
+Key outcomes:
 
-- Structuring and executing data analysis projects independently  
-- Cleaning and preprocessing real-world datasets  
-- Selecting suitable machine learning frameworks (Supervised, Unsupervised, etc.)  
-- Handling collaboration challenges such as branching and merge conflicts  
-- Translating technical insights into clear, professional communication 
+- Ability to structure and execute data analysis projects  
+- Experience working with real-world datasets  
+- Understanding machine learning workflows  
+- Improved analytical thinking and problem solving  
+- Professional documentation and communication of technical work  
 
 ---
+
+# 📂 Repository Structure
+
+
+├── Datasets
+├── Presentation ppt
+├── Projects
+├── src
+└── README.md
 
 ## 👩‍💻 Author
 
 **Preksha Shetty**  
-
-📅 February 2026
+Data Science & AI Internship  
+📅 2026
